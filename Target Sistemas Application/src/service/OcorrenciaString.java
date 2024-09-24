@@ -10,7 +10,7 @@ public class OcorrenciaString {
         String string = scanner.nextLine();
 
         Integer qtdOcorrencias = verificarString(string);
-        System.out.println(qtdOcorrencias);
+        System.out.println("A letra a aparece " + qtdOcorrencias + "vezes na String.");
     }
 
     private Integer verificarString(String string) {
